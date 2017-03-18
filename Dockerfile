@@ -25,6 +25,6 @@ RUN npm install -g grunt-cli
 RUN curl -sS https://getcomposer.org/installer | php
 RUN chmod +x composer.phar
 RUN mv composer.phar /usr/bin
-RUN wget https://www.phing.info/get/phing-latest.phar && chmod +x phing-latest.phar && mv phing-latest.phar /usr/bin/phin
+RUN wget https://www.phing.info/get/phing-latest.phar && chmod +x phing-latest.phar && mv phing-latest.phar /usr/bin/phing
 
 USER jenkins
